@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():  # put application's code here
     powerString = str(mymath.power(3,8))
-    return f'Hello yoooooooooooooooooooooooooooo. This was edited in Github. The answer is guyyyyyyyyyyy: {powerString}'
+    return f'Hello yoooooooooooooooooooooooooooo. This was edited in Github. The answer is conors void: {powerString}'
 
 if __name__ == '__main__':
   app.run()
